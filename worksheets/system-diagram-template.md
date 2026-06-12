@@ -1,6 +1,6 @@
 # System Diagram Template — ใบงานครั้งที่ 8
 
-> copy ไปไว้ใน `teams/team-XX/` แล้วเติม — วาดมือถ่ายรูปแนบก็ได้ หรือแก้ diagram ข้างล่าง
+> copy ไปไว้ใน `submissions/team-XX/` แล้วเติม — วาดมือถ่ายรูปแนบก็ได้ หรือแก้ diagram ข้างล่าง
 
 ## ระบบของทีม
 

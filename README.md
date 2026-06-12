@@ -52,7 +52,7 @@ smart-sensor-aiot-engineering/
 ├── schedule/              ← แผนการสอนรายครั้ง (10 ครั้ง)
 ├── code-examples/         ← โค้ดตัวอย่าง MicroPython ทุกหัวข้อ
 ├── worksheets/            ← ใบงาน / template ต่าง ๆ
-└── teams/                 ← พื้นที่ผลงานของแต่ละทีม (10 ทีม)
+└── submissions/           ← พื้นที่ส่งงานของแต่ละทีม (10 ทีม)
 ```
 
 ## 🧰 อุปกรณ์ต่อทีม
@@ -71,9 +71,47 @@ smart-sensor-aiot-engineering/
 
 ซอฟต์แวร์: [Thonny IDE](https://thonny.org/) + [MicroPython firmware สำหรับ ESP32](https://micropython.org/download/esp32/)
 
+## 📤 กติกาการส่งงาน (ระบบ Fork)
+
+1. แต่ละทีมต้อง **Fork repo นี้** ไปยังบัญชี GitHub ของตัวแทนทีม (GitHub Manager ของทีม)
+2. แต่ละทีมแก้ไขเฉพาะ folder ของทีมตนเองใน `submissions/team-xx/`
+3. **ห้ามแก้ไข** ไฟล์ใน `schedule/`, `worksheets/`, `code-examples/` ยกเว้นได้รับอนุญาต
+4. ทุกครั้งที่ส่งงาน ให้ commit ด้วยข้อความที่สื่อความหมาย
+5. การส่งงานทำได้ 2 วิธี
+   - ส่ง link fork ผ่าน Google Form
+   - เปิด Pull Request กลับมายัง repo กลาง
+6. ถ้าเปิด Pull Request ให้ตั้งชื่อว่า `Team xx - Week yy Submission`
+
+ตัวอย่างชื่อ Pull Request
+
+```text
+Team 01 - Week 01 Submission
+Team 03 - Add STEM Problem Canvas
+Team 07 - Week 05 Data Visualization
+Team 10 - Final Project Submission
+```
+
+ภาพรวม workflow
+
+```text
+อาจารย์สร้าง repo กลาง
+↓
+ทีม fork repo
+↓
+ทีมแก้เฉพาะ submissions/team-xx/
+↓
+ทีม commit ทุกสัปดาห์
+↓
+ส่ง link fork หรือเปิด pull request
+↓
+อาจารย์ review / merge / ให้ feedback
+```
+
+> 💡 ช่วงแรกไม่จำเป็นต้องใช้ command line — แก้ไฟล์/อัปโหลดผ่าน GitHub Web ได้เลย และถ้าติดปัญหาเรื่อง fork/PR ให้ส่งผ่าน Google Form สำรองไว้ก่อน
+
 ## 📝 กติกาประจำทุกครั้ง
 
-ทุกทีมต้องเติม log ลง `teams/team-XX/README.md` ก่อนหมดคาบ อย่างน้อย 5 บรรทัด:
+ทุกทีมต้องเติม log ลง `submissions/team-XX/README.md` (ใน fork ของทีม) ก่อนหมดคาบ อย่างน้อย 5 บรรทัด:
 
 ```text
 วันนี้ทำอะไร
@@ -85,6 +123,7 @@ smart-sensor-aiot-engineering/
 
 ## 🚀 เริ่มต้นอย่างไร
 
-1. นักเรียน: ไปที่โฟลเดอร์ทีมของตัวเองใน [`teams/`](teams/)
+1. ตัวแทนทีม (GitHub Manager): **Fork repo นี้** แล้วไปที่โฟลเดอร์ทีมของตัวเองใน [`submissions/`](submissions/)
 2. อ่านแผนครั้งที่ 1 ที่ [`schedule/week-01-aiot-intro.md`](schedule/week-01-aiot-intro.md)
 3. ดูโค้ดตัวอย่างได้ที่ [`code-examples/`](code-examples/)
+4. อ่านกติกาการส่งงานแบบละเอียดที่ [`submissions/README.md`](submissions/README.md)

@@ -70,7 +70,7 @@ while True:
 
 - [ ] ระบบ input → decision → output ทำงานได้ (ครูเช็ค)
 - [ ] Challenge 3 โหมดผ่าน
-- [ ] ถ่ายรูปวงจร + โค้ดลง `teams/team-XX/`
+- [ ] ถ่ายรูปวงจร + โค้ดลง `submissions/team-XX/`
 - [ ] log 5 บรรทัด
 
 ## Exit Ticket

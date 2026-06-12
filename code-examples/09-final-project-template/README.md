@@ -8,7 +8,7 @@ SENSE (read_sensor) → THINK (decide) → ACT (act) → LOG (log)
 
 ## วิธีใช้
 
-1. copy `main.py` ไปไว้ใน `teams/team-XX/code/`
+1. copy `main.py` ไปไว้ใน `submissions/team-XX/code/`
 2. แก้ `read_sensor()` ให้ตรงกับ sensor ของทีม (ดูตัวอย่างใน 04/05/06)
 3. แก้ threshold ทั้งสองค่า **จากข้อมูลจริง** + จดเหตุผลใน README ทีม
 4. แก้ `act()` ให้ตรงกับ output ของทีม (LED / buzzer / web)

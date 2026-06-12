@@ -1,6 +1,6 @@
 # Problem Canvas — ใบงานครั้งที่ 1
 
-> copy ไฟล์นี้ไปไว้ใน `teams/team-XX/` แล้วเติมให้ครบ
+> copy ไฟล์นี้ไปไว้ใน `submissions/team-XX/` แล้วเติมให้ครบ
 
 ## ทีม
 

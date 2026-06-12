@@ -87,7 +87,7 @@ while True:
 ## ชิ้นงานที่ต้องส่ง
 
 - [ ] หน้า web/dashboard แสดงค่า sensor ได้ (ครูเช็คจากมือถือครูเอง)
-- [ ] screenshot หน้า dashboard ลง `teams/team-XX/`
+- [ ] screenshot หน้า dashboard ลง `submissions/team-XX/`
 - [ ] log 5 บรรทัด
 
 ## Exit Ticket

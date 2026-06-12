@@ -53,8 +53,8 @@
 ## ชิ้นงานที่ต้องส่ง
 
 - [ ] **Prototype v1** ทำงานได้อย่างน้อย 1 วงจรเต็ม sense → think → act
-- [ ] **System Diagram** (ถ่ายรูป/ไฟล์ลง `teams/team-XX/`)
-- [ ] **README draft** ตามหัวข้อใน [team README template](../teams/README.md)
+- [ ] **System Diagram** (ถ่ายรูป/ไฟล์ลง `submissions/team-XX/`)
+- [ ] **README draft** ตามหัวข้อใน [team README template](../submissions/README.md)
 - [ ] log 5 บรรทัด + รายการงานค้างสำหรับครั้งที่ 9
 
 ## Exit Ticket

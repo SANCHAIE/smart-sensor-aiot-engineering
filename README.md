@@ -23,7 +23,7 @@
 
 | ครั้งที่ | หัวข้อ | ชิ้นงานหลัก | Challenge |
 |---|---|---|---|
-| 1 | [เปิดโลก AIoT + ตั้งทีม + GitHub](schedule/week-01-aiot-intro.md) | Problem Canvas | ตั้งโจทย์ปัญหาจริงในโรงเรียน |
+| 1 | [เปิดโลก AIoT + ตั้งทีม + GitHub](schedule/week-01-aiot-stem-intro.md) | Problem Canvas | ตั้งโจทย์ปัญหาจริงในโรงเรียน |
 | 2 | [Setup ESP32 + MicroPython](schedule/week-02-esp32-micropython.md) | Blink LED | ไฟกระพริบ 3 จังหวะ (SOS) |
 | 3 | [GPIO + Input/Output](schedule/week-03-gpio-io.md) | ระบบ input → decision → output | กดปุ่มเปลี่ยนโหมด 3 โหมด |
 | 4 | [Sensor Reading](schedule/week-04-sensor-reading.md) | ตารางข้อมูล 20+ แถว | ทำนายค่าก่อนวัดจริง |
@@ -52,6 +52,7 @@ smart-sensor-aiot-engineering/
 ├── schedule/              ← แผนการสอนรายครั้ง (10 ครั้ง)
 ├── code-examples/         ← โค้ดตัวอย่าง MicroPython ทุกหัวข้อ
 ├── worksheets/            ← ใบงาน / template ต่าง ๆ
+├── project-template/      ← โครงโค้ด + ใบงาน สำหรับ final project (copy ไปใช้ได้เลย)
 └── submissions/           ← พื้นที่ส่งงานของแต่ละทีม (10 ทีม)
 ```
 
@@ -75,7 +76,7 @@ smart-sensor-aiot-engineering/
 
 1. แต่ละทีมต้อง **Fork repo นี้** ไปยังบัญชี GitHub ของตัวแทนทีม (GitHub Manager ของทีม)
 2. แต่ละทีมแก้ไขเฉพาะ folder ของทีมตนเองใน `submissions/team-xx/`
-3. **ห้ามแก้ไข** ไฟล์ใน `schedule/`, `worksheets/`, `code-examples/` ยกเว้นได้รับอนุญาต
+3. **ห้ามแก้ไข** ไฟล์ใน `schedule/`, `worksheets/`, `code-examples/`, `project-template/` ยกเว้นได้รับอนุญาต
 4. ทุกครั้งที่ส่งงาน ให้ commit ด้วยข้อความที่สื่อความหมาย
 5. การส่งงานทำได้ 2 วิธี
    - ส่ง link fork ผ่าน Google Form
@@ -124,6 +125,6 @@ Team 10 - Final Project Submission
 ## 🚀 เริ่มต้นอย่างไร
 
 1. ตัวแทนทีม (GitHub Manager): **Fork repo นี้** แล้วไปที่โฟลเดอร์ทีมของตัวเองใน [`submissions/`](submissions/)
-2. อ่านแผนครั้งที่ 1 ที่ [`schedule/week-01-aiot-intro.md`](schedule/week-01-aiot-intro.md)
+2. อ่านแผนครั้งที่ 1 ที่ [`schedule/week-01-aiot-stem-intro.md`](schedule/week-01-aiot-stem-intro.md)
 3. ดูโค้ดตัวอย่างได้ที่ [`code-examples/`](code-examples/)
 4. อ่านกติกาการส่งงานแบบละเอียดที่ [`submissions/README.md`](submissions/README.md)

@@ -40,7 +40,7 @@
    - Code Lead: รวมโค้ด sensor + logic + output (+ web)
    - Data & Docs Lead: เริ่ม README ทีม + เตรียมแผนเก็บข้อมูล
 4. **รวมระบบ** แล้วลองรันจริงอย่างน้อย 1 รอบ
-5. ใช้ [final-project-template](../code-examples/09-final-project-template/) เป็นโครงโค้ดเริ่มต้นได้
+5. ใช้ [project-template](../project-template/) เป็นโครงโค้ด + ใบงานเริ่มต้นได้ (copy ทั้งโฟลเดอร์ไปไว้ใน `submissions/team-XX/`)
 
 ## 🏆 Team Challenge: "90-Second Demo"
 

@@ -6,7 +6,7 @@
 
 1. แต่ละทีมต้อง **Fork repo นี้** ไปยังบัญชี GitHub ของตัวแทนทีม (GitHub Manager)
 2. แต่ละทีมแก้ไขเฉพาะ folder ของทีมตนเองใน `submissions/team-xx/`
-3. **ห้ามแก้ไข** ไฟล์ใน `schedule/`, `worksheets/`, `code-examples/` ยกเว้นได้รับอนุญาต
+3. **ห้ามแก้ไข** ไฟล์ใน `schedule/`, `worksheets/`, `code-examples/`, `project-template/` ยกเว้นได้รับอนุญาต
 4. ทุกครั้งที่ส่งงาน ให้ commit ด้วยข้อความที่สื่อความหมาย
 5. การส่งงานทำได้ 2 วิธี
    - ส่ง link fork ผ่าน Google Form
@@ -27,7 +27,7 @@ Team 10 - Final Project Submission
 ```text
 team-XX/
 ├── README.md          ← หน้าหลักของทีม + log รายสัปดาห์
-├── problem-canvas.md  ← copy จาก worksheets แล้วเติม
+├── problem-canvas.md  ← copy จาก worksheets/stem-problem-canvas.md แล้วเติม
 ├── code/              ← โค้ดของทีม (อัปเดตทุกครั้งที่มีของใหม่)
 ├── data/              ← data.csv + กราฟ
 ├── images/            ← รูปวงจร, system diagram, screenshot dashboard
